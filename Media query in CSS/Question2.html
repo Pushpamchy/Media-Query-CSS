@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        @media (min-width: 800px) {
+            .imgs {
+                width: 32%;
+            }
+        }
+        @media (min-width: 500px) and (max-width: 800px) {
+            .imgs {
+                width: 50%;
+            }
+        }
+        @media (max-width: 500px) {
+            .imgs {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="imgs"  src="./38-200x300.jpg" alt="Cloud">
+        <img class="imgs"  src="./38-200x300.jpg" alt="Cloud">
+        <img class="imgs"  src="./38-200x300.jpg" alt="Cloud">
+    </div>
+</body>
+</html>
